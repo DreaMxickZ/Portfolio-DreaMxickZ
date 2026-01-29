@@ -114,6 +114,8 @@ export const projects: Project[] = [
     date: '2025-08'
   },
 
+  
+
       {
     id: 'realtime-tracking-runner',
     title: 'Realtime Tracking Runner',
@@ -130,6 +132,23 @@ export const projects: Project[] = [
     date: '2025-08'
   },
 
+     {
+    id: 'f1-racing-thai-hub',
+    title: 'F1 Racing Thai Hub',
+    category: 'software',
+    description: 'แพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย',
+    details: 'พัฒนาแพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย โดยมีฟีเจอร์การจัดการข้อมูลนักวิ่ง, ติดตามสถานะการแข่งขัน, และแสดงผลข้อมูลทางสถิติ',
+    images: [
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724388/Screenshot_2026-01-30_050448_v3sefa.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724387/Screenshot_2026-01-30_050500_xgtuud.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724388/Screenshot_2026-01-30_050513_fshlun.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724387/Screenshot_2026-01-30_050527_d1fs0o.png',
+    ],
+     demoUrl: 'https://f1-racing-thai-hub.vercel.app/',
+    githubUrl: 'https://github.com/DreaMxickZ/F1-Racing-Thai-Hub-',
+    tags: ['Vue.js', 'Supabase','F1 Open Api'],
+    date: '2026-01'
+  },
 
   // AI Projects
   {
