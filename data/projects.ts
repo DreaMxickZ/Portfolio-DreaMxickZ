@@ -133,19 +133,25 @@ export const projects: Project[] = [
   },
 
      {
-    id: 'f1-racing-thai-hub',
-    title: 'F1 Racing Thai Hub',
+    id: 'f1-thai-hub',
+    title: 'F1 Thai Hub',
     category: 'software',
     description: 'แพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย',
     details: 'พัฒนาแพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย โดยมีฟีเจอร์การจัดการข้อมูลนักวิ่ง, ติดตามสถานะการแข่งขัน, และแสดงผลข้อมูลทางสถิติ',
     images: [
-      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724388/Screenshot_2026-01-30_050448_v3sefa.png',
-      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724387/Screenshot_2026-01-30_050500_xgtuud.png',
-      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724388/Screenshot_2026-01-30_050513_fshlun.png',
-      'https://res.cloudinary.com/dl4183zt2/image/upload/v1769724387/Screenshot_2026-01-30_050527_d1fs0o.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625850/3b0b11e3-82ba-432c-853c-40f29c2faf88.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625868/a79a4f5c-0581-41df-a0e2-9a8cb4d3e1ac.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625876/b9e18c94-09cc-4ed6-8ff5-1ed3512eb63b.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625882/83af6af3-4ebe-4c4f-a397-428c92207ec0.png',
+      'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625893/a12a1615-e992-4124-b3bd-8279d6275581.png',
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774625899/182aa4af-0de7-4079-ad4f-95bb209a9ae9.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774625904/1190af8a-2676-44a1-bda2-0973fafd9bd0.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774625929/8138b2fc-fd82-4abc-b40f-70cad1607784.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774625939/55d83f2c-fa0e-4c9d-b191-979cc89d7d93.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774625950/d732a073-2482-4e4b-bd7a-403f9a17f984.png"
     ],
-     demoUrl: 'https://f1-racing-thai-hub.vercel.app/',
-    githubUrl: 'https://github.com/DreaMxickZ/F1-Racing-Thai-Hub-',
+     demoUrl: 'https://f1-thai-hub.vercel.app/',
+    githubUrl: 'https://github.com/DreaMxickZ/F1-Thai-Hub-',
     tags: ['Vue.js', 'Supabase','F1 Open Api'],
     date: '2026-01'
   },
