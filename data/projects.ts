@@ -132,12 +132,12 @@ export const projects: Project[] = [
     date: '2025-08'
   },
 
-     {
+  {
     id: 'f1-thai-hub',
     title: 'F1 Thai Hub',
     category: 'software',
-    description: 'แพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย',
-    details: 'พัฒนาแพลตฟอร์มจัดการข้อมูลนักวิ่ง F1 ที่มีอยู่ในประเทศไทย โดยมีฟีเจอร์การจัดการข้อมูลนักวิ่ง, ติดตามสถานะการแข่งขัน, และแสดงผลข้อมูลทางสถิติ',
+    description: 'แพลตฟอร์มแสดงข้อมูลของ F1 ที่ทำเป็นภาษาไทย',
+    details: 'พัฒนาเว็บไซต์แสดงข้อมูลของ F1 ที่ทำเป็นภาษาไทย โดยมีฟีเจอร์การแสดงผลข้อมูลของนักขับ F1 คะแนนรายบุคคล รายทีม, ติดตามสถานะการแข่งขัน, และข่าวสารเกี่ยวกับ F1 โดยใช้ API ของ F1 Open API เพื่อดึงข้อมูลล่าสุดมาแสดงผลบนเว็บไซต์',
     images: [
       'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625850/3b0b11e3-82ba-432c-853c-40f29c2faf88.png',
       'https://res.cloudinary.com/dl4183zt2/image/upload/v1774625868/a79a4f5c-0581-41df-a0e2-9a8cb4d3e1ac.png',
@@ -152,8 +152,26 @@ export const projects: Project[] = [
     ],
      demoUrl: 'https://f1-thai-hub.vercel.app/',
     githubUrl: 'https://github.com/DreaMxickZ/F1-Thai-Hub-',
-    tags: ['Vue.js', 'Supabase','F1 Open Api'],
+    tags: ['Vite', 'Supabase','F1 Open Api'],
     date: '2026-01'
+  },
+
+  {
+    id: 'f1-info-graphic',
+    title: 'F1 Info Graphic',
+    category: 'software',
+    description: 'แพลตฟอร์มสร้างอินโฟกราฟิกข้อมูลของ F1 ',
+    details: 'พัฒนาแพลตฟอร์มสร้างอินโฟกราฟิกข้อมูลของ F1 ที่ใช้ API ของ F1 Open API เพื่อดึงข้อมูลล่าสุดมาแสดงผลในรูปแบบกราฟิกที่สวยงามและเข้าใจง่าย โดยมีฟีเจอร์การเลือกประเภทข้อมูลที่ต้องการแสดง เช่น คะแนนรายบุคคล รายทีม, สถิติการแข่งขัน, และข่าวสารเกี่ยวกับ F1 พร้อมทั้งสามารถดาวน์โหลดอินโฟกราฟิกในรูปแบบภาพได้',
+    images: [
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774667288/screencapture-localhost-3000-2026-03-28-10_07_48_umhjbw.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774667368/screencapture-localhost-3000-generate-2026-03-28-10_09_23_y021ma.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774667473/screencapture-localhost-3000-generate-2026-03-28-10_10_43_qvqeom.png",
+      "https://res.cloudinary.com/dl4183zt2/image/upload/v1774667691/screencapture-localhost-3000-generate-2026-03-28-10_14_45_gqvdkk.png",
+    ],
+    //  demoUrl: 'https://f1-thai-hub.vercel.app/',
+    // githubUrl: 'https://github.com/DreaMxickZ/F1-Thai-Hub-',
+    tags: ['Vite  ', 'Supabase','F1 Open Api'],
+    date: '2026-03'
   },
 
   // AI Projects
